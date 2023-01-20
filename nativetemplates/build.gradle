@@ -1,7 +1,9 @@
-apply plugin: 'com.android.library'
-//apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.daoibrahim'
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
 android {
     compileSdkVersion 33
    // buildToolsVersion "30.0.3"
