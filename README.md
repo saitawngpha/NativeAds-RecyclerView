@@ -72,7 +72,7 @@ Native ads Small Layout |  Native ads Medium Layout
 <img src="1.png" width="250px"/>  |  <img src="2.png" width="250px"/> 
 
 ## Reference Project
-![Special thanks to](https://github.com/daoibrahim/AdmobAdvancedNativeRecyclerview)
+![Special thanks to daoibrahim](https://github.com/daoibrahim/AdmobAdvancedNativeRecyclerview)
 
 
 ## Donate
