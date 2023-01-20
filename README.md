@@ -63,7 +63,7 @@ Step 3. Add below code to setup your Adapter by Kotlin.
 		      myAdapter,//The adapter you would normally set to your recyClerView
 		      "medium"//Set it with "small","medium" or "custom"
 		      )
-	    .adItemIterval(interval)//native ad repeating interval in the recyclerview
+	    .adItemIterval(2)//native ad repeating interval in the recyclerview
 	    .build();
     recyclerView.setAdapter(admobNativeAdAdapter);//set your RecyclerView adapter with the admobNativeAdAdapter
 
