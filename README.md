@@ -2,8 +2,9 @@
 >Android library for add Naive Ads into RecyclerView list items.
 
 ## Update
-- updated to the latest version of Admob SDK
-- support on Android SDK 30, 31, 32 ,33
+- Updated to the latest version of Admob SDK
+- Supported on Android SDK 30, 31, 32 ,33
+- Updated RVAdapter to Kotlin
 
 ## For developer
 To make your app can earn more revengue ` by Showing Native Ads into RecyclerView list items `. Please check more details from below.
@@ -58,7 +59,7 @@ Step 3. Add below code to setup your Adapter by Kotlin.
 
       AdmobNativeAdAdapter admobNativeAdAdapter=AdmobNativeAdAdapter.Builder
 	      .with(
-		      "",//Create a native ad id from admob console
+		      "ca-app-pub-3940256099942544/2247696110",//Create a native ad id from admob console
 		      myAdapter,//The adapter you would normally set to your recyClerView
 		      "medium"//Set it with "small","medium" or "custom"
 		      )
@@ -75,7 +76,7 @@ Native ads Small Layout |  Native ads Medium Layout
 ![Special thanks to daoibrahim](https://github.com/daoibrahim/AdmobAdvancedNativeRecyclerview)
 
 
-## By me coffee
+## Buy me coffee ☕️
  Shiba |  BTC | ETH | DOGE |
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 <img src="donate/shib.JPG" width="250px"/>  |  <img src="donate/btc.JPG" width="250px"/> | <img src="donate/eth.JPG" width="250px"/> |<img src="donate/doge.JPG" width="250px"/> |
