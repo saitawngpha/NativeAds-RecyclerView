@@ -35,7 +35,7 @@ Step 2. Add the dependency
   
 
 	dependencies {
-	        implementation 'com.github.saitawngpha:NativeAds-RecyclerView:1.0.0'
+	        implementation 'com.github.saitawngpha:NativeAds-RecyclerView:1.0.1'
 	}
 
 
@@ -75,7 +75,7 @@ Native ads Small Layout |  Native ads Medium Layout
 ![Special thanks to daoibrahim](https://github.com/daoibrahim/AdmobAdvancedNativeRecyclerview)
 
 
-## Donate
+## By me coffee
  Shiba |  BTC | ETH | DOGE |
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 <img src="donate/shib.JPG" width="250px"/>  |  <img src="donate/btc.JPG" width="250px"/> | <img src="donate/eth.JPG" width="250px"/> |<img src="donate/doge.JPG" width="250px"/> |
