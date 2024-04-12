@@ -1,5 +1,6 @@
 package com.google.rvadapter
 
+import android.annotation.SuppressLint
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
@@ -7,11 +8,12 @@ import androidx.recyclerview.widget.RecyclerView.ViewHolder
 /**
  * @author rockerhieu on 7/6/15.
  */
-open class RecyclerViewAdapterWrapper(val wrappedAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>) :
+open class RecyclerViewAdapterWrapper(private val wrappedAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>) :
     RecyclerView.Adapter<ViewHolder>() {
 
     init {
         wrappedAdapter.registerAdapterDataObserver(object : RecyclerView.AdapterDataObserver() {
+            @SuppressLint("NotifyDataSetChanged")
             override fun onChanged() {
                 notifyDataSetChanged()
             }
