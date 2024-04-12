@@ -3,7 +3,7 @@
 
 ## Update
 - Updated to the latest version of Admob SDK
-- Supported on Android SDK 30, 31, 32 ,33
+- Supported on Android SDK 30, 31, 32, 33, 34
 - Updated RVAdapter to Kotlin
 
 ## For developer
