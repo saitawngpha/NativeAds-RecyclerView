@@ -103,17 +103,10 @@ class AdmobNativeAdAdapter private constructor(private val mParam: Param) :
                         super.onAdFailedToLoad(loadAdError)
                         Log.e("admobnative", "error:$loadAdError")
                         adHolder.adContainer.visibility = View.GONE
-                    } //                        @Override
-                    //                        public void onAdFailedToLoad(int errorCode) {
-                    //                            Log.e("admobnative","error:"+errorCode);
-                    //                            adHolder.adContainer.setVisibility(View.GONE);
-                    //                            // Handle the failure by logging, altering the UI, and so on.
-                    //
-                    //                        }
+                    }
                 })
                 .withNativeAdOptions(
-                    NativeAdOptions.Builder() // Methods in the NativeAdOptions.Builder class can be
-                        // used here to specify individual options settings.
+                    NativeAdOptions.Builder()
                         .build()
                 )
                 .build()
