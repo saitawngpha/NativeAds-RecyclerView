@@ -3,7 +3,7 @@
 
 ## Update
 - Updated to the latest version of Admob SDK
-- Supported on Android SDK 30, 31, 32, 33, 34
+- Supported on Android SDK 30, 31, 32, 33, 34, 35, 36, 37
 - Updated RVAdapter to Kotlin
 
 ## For developer
@@ -36,7 +36,7 @@ Step 2. Add the dependency
   
 
 	dependencies {
-	        implementation 'com.github.saitawngpha:NativeAds-RecyclerView:1.0.2'
+	        implementation 'com.github.saitawngpha:NativeAds-RecyclerView:1.0.3'
 	}
 
 
